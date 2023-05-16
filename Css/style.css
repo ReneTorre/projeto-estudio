@@ -2071,13 +2071,42 @@ main {
     
 }
 
+@media (max-width: 539px) {
+#info {
+    margin-top: 10rem;
+}
+
+.info-quality {
+    display: flex;
+    width: 100%;
+    margin: 0;
+}
+
+.box-info-quality {
+    display: flex;
+    width: 100%;
+}
+.box-info-equipamento {
+    display: flex;
+    width: 100%;
+}
+.box-info-aula {
+    display: flex;
+    width: 100%;
+}
+
+.img-location {
+    margin-right: 2rem;
+}
+}
+
 @media (max-width: 375px) {
 
     .info-quality {
         display: flex;
         width: 100%;
         margin-left: 0rem;
-        margin-top: 15rem;
+        margin-top: 5rem;
     }
 
     .box-info-quality {
@@ -2113,6 +2142,37 @@ main {
 
     .wrapper-poster {
         margin-top: 80rem;
+    }
+
+    @media (max-width: 300px) {
+        .wrapper-poster {
+            margin-top: 100rem;
+        }
+
+        #about-renato {
+            margin-top: 90rem;
+        }
+
+        .swiper1 {
+            width: 500px;
+            height: 200px; 
+          }
+
+        .title-renato {
+            margin-top: 0;
+            margin-bottom: 3rem;
+        }
+    }
+
+    @media (max-width: 280px) {
+        .wrapper-poster {
+            margin-top: 115rem;
+        }
+
+        #about-renato {
+            margin-top: 105rem;
+        }
+
     }
 
 }

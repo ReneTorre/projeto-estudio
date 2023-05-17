@@ -415,7 +415,7 @@
     #location {
         display: flex;
         width: 100%;
-        height: 100%;
+        height: auto;
         box-sizing: border-box;
         align-items: center;
         background-color: var(--color-black);
@@ -1346,7 +1346,7 @@
         }
         
         .swiper1 {
-            width: 500px;
+            width: 100%;
             height: 50%;
         }
     
@@ -1360,13 +1360,13 @@
     
        .wrapper-poster1 {
         display: flex;
-        width: 500px;
+        width: 100%;
         height: 100%;
        }
     
        .wrapper-poster2 {
         display: flex;
-        width: 500px;
+        width: 100%;
         height: 100%;
        }
     
@@ -1393,11 +1393,11 @@
        }
     
        .colum-img1 img {
-        width: 100%;
+        width: 90%;
        }
        
        .colum-img2 img {
-        width: 100%;
+        width: 90%;
        }
     
        .recording-title  {
@@ -1461,11 +1461,11 @@
        }
     
        .colum-img1 img {
-        width: 100%;
+        width: 90%;
        }
     
        .colum-img2 img {
-        width: 100%;
+        width: 90%;
        }
     }
     
@@ -1577,7 +1577,7 @@
         }
 
         .img-location a {
-            width: auto;
+            width: 300px;
             height: 500px;
         }
     

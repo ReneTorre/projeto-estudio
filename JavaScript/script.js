@@ -69,10 +69,10 @@ var swiper = new Swiper(".mySwiper", {
 
 var swiper1 = new Swiper(".swiper1", {
   slidesPerView: 2,
-  spaceBetween: 20,
+  spaceBetween: 15,
   loop: true,
   autoplay: {
-    delay: 5000,
+    delay: 4000,
   },
 });
 

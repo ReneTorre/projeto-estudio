@@ -678,6 +678,11 @@
         border-radius: 10px;
       }
       
+      .swiper-wrapper {
+        width: 100%;
+        height: auto;
+      }
+
       .swiper1 .swiper-slide img {
         width: 100%;
         height: 100%;
@@ -1662,6 +1667,15 @@
     
         .classes-title {
             margin-bottom: 5px;
+        }
+    }
+
+    @media (max-width: 434px) {
+        .title-renato h1 {
+            font-size: 1.3rem;
+        }
+        .title-renato p {
+            font-size: 13px;
         }
     }
     

@@ -31,7 +31,7 @@ var swiper = new Swiper(".mySwiper", {
  
   
   window.addEventListener('scroll', () => {
-    if (window.scrollY >= 0 && window.scrollY <= 700) {
+    if (window.scrollY >= 0 && window.scrollY <= 500) {
           navbarInicio.style.color = '#FDD996';
           navbarInicio.style.transition = '.3s ease'
           
@@ -40,7 +40,7 @@ var swiper = new Swiper(".mySwiper", {
           navbarInicio.style.scale = 'none'
       }
 
-    if (window.scrollY >= 700 && window.scrollY <= 2000){
+    if (window.scrollY >= 500 && window.scrollY <= 1000){
           navbarLocalizacao.style.color = '#fdd996'
           navbarLocalizacao.style.transition = '.3s ease'
       } else {
@@ -48,7 +48,7 @@ var swiper = new Swiper(".mySwiper", {
           navbarLocalizacao.style.scale = 'none'
       }
 
-    if (window.scrollY >= 2700 && window.scrollY <= 3800){
+    if (window.scrollY >= 1500 && window.scrollY <= 2500){
           navbarStudio.style.color = '#fdd996'
           navbarStudio.style.transition = '.3s ease'
       } else {
@@ -56,7 +56,7 @@ var swiper = new Swiper(".mySwiper", {
           navbarStudio.style.scale = 'none'
       }
 
-    if (window.scrollY >= 6000 && window.scrollY <= 7000){
+    if (window.scrollY >= 4000 && window.scrollY <= 4700){
           navbarContato.style.color = '#fdd996'
           navbarContato.style.transition = '.3s ease'
       } else {

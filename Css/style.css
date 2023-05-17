@@ -166,7 +166,6 @@
         background-position: center;
         background-size: cover;
         
-        z-index: -1;
       }
       
       .swiper-slide img {
@@ -174,8 +173,6 @@
         width: 100%;
         height: 100vh;
         object-fit: cover;
-        
-        z-index: 1;
       }
       
       .background-swiper {
@@ -184,26 +181,21 @@
         background-color: var(--color-black);
         position: absolute;
         opacity: 0.5;
-        z-index: 2;
       }
       
       #person {
         display: flex;
         width: auto;
-        height: 100%;
         justify-content: start;
         align-items: center;
         background: linear-gradient(.5turn, transparent 65%, var(--color-black));
       }
-      
       
       .person-content {
         display: flex;
         width: auto;
         position: absolute;
         margin-left: 150px;
-       
-        z-index: 3;
       }  
     
     .person-frase {
@@ -442,6 +434,7 @@
         flex-direction: column;
         align-items: start;
         width: 100%;
+        height: auto;
     }
     
     .text-location h1 {

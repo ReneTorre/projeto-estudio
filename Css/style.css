@@ -426,6 +426,7 @@
         width: 100%;
         height: 100%;
         align-items: center;
+        margin-top: 5em;
         margin-left: 7rem;
     }
     
@@ -1573,6 +1574,11 @@
             display: flex;
             height: auto;
             flex-wrap: wrap;
+        }
+
+        .img-location a {
+            width: auto;
+            height: 500px;
         }
     
         .text-location h1 {

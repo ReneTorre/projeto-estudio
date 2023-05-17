@@ -196,19 +196,21 @@
       
       .person-content {
         display: flex;
-        width: auto;
+        width: 100%;
+        /* height: auto; */
         position: absolute;
         margin-left: 150px;
         overflow: hidden;
+        z-index: 2;
       }  
     
     .person-frase {
         display: flex;
-        width: auto;
+        width: 100%;
         height: 100%;
         flex-direction: column;
         justify-content: center;
-        z-index: 1;
+        
         color: var(--color-white);
     }
     
@@ -235,6 +237,7 @@
         align-items: center;
         justify-content: start;
         margin-top: 2rem;
+        
     }
     
     
@@ -276,10 +279,10 @@
     }
     
     .button-diary-ensaio a:hover {
-        transform: scale(1.1) rotate(5deg);
-        transition: all .3s ease;
+        transition: all .2s ease;
         border: solid #ffffff;
         border-width: 1.2px;
+        background-color: #fd6b1c;
         color: var(--color-white);
     }
     
@@ -309,10 +312,10 @@
     }
     
     .button-diary-aula a:hover {
-        transform: scale(1.1) rotate(5deg);
-        transition: all .3s ease;
+        transition: all .2s ease;
         border: solid #ffffff;
         border-width: 1.2px;
+        background-color: #fd6b1c;
         color: var(--color-white);
     }
     
@@ -432,6 +435,7 @@
         align-items: center;
         margin-top: 5em;
         margin-left: 7rem;
+        margin-bottom: 10em;
     }
     
     .text-location {
@@ -440,6 +444,7 @@
         align-items: start;
         width: 100%;
         height: auto;
+     
     }
     
     .text-location h1 {
@@ -495,6 +500,7 @@
         transform: scale(1.1);
         transition: all .3s ease;
         border: solid 1px;
+        background-color: #fd6b1c;
         border-color: var(--color-white);
     }
     
@@ -502,9 +508,9 @@
         display: flex;
         width: 100%;
         height: 100%;
-       
         justify-content: center;
         align-items: center;
+        transition: all .3s ease;
     }
     
     .img-location img {
@@ -514,14 +520,10 @@
         max-width: 100%;
         box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
         border-radius: 10px;
+       
         transition: all .3s ease;
     }
     
-    .img-location img:hover {
-        transform: scale(1.1);
-        transition: all .3s ease;
-    
-    }
     /* END LOCATION */
     
     /* ABOUT */

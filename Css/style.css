@@ -116,6 +116,8 @@
     
     .mobile-menu {
         display: none;
+        margin-left: 20em;
+        position: absolute;
         cursor: pointer;
     }
     
@@ -716,7 +718,7 @@
     
     .wrapper-poster1 {
         display: flex;
-        width: 50%;
+        width: 30%;
         height: auto;
         align-items: center;
         justify-content: center;
@@ -724,10 +726,10 @@
     
     .wrapper-poster2 {
         display: flex;
-        width: 50%;
+        width: 30%;
         height: auto;
         align-items: center;
-        justify-content: center;
+        justify-content: center;   
     }
     
     .recording {
@@ -1103,13 +1105,14 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        font-size: 11px;
         font-family: Arial, sans-serif;
         color: #ccc;
     }
     
     .box-footer a {
         margin: 0px 5px 0px 0px;
-        font-size: 15px;
+        font-size: 11px;
         font-weight: 400;
         text-decoration: none;
         color: var(--color-white);
